@@ -2,51 +2,52 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Cosmonauta</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="pingback" href="xmlrpc.php" />
-    <title>Cosmonauta</title>
+    <meta name="generator" content="WordPress 4.5.20" />
     <meta name='robots' content='noindex,follow' />
+
+    <link rel="pingback" href="xmlrpc.php" />
     <link href="~/_Css/Layout.css" rel="stylesheet" />
     <link rel="alternate" type="application/rss+xml" title="JustWrite &raquo; Feed" href="https://feeds.feedburner.com/acosmin" />
     <link rel="alternate" type="application/rss+xml" title="JustWrite &raquo; Comments Feed" href="comments/feed/index.html" />
-    <script src="~/_Js/Layout.js"></script>
+
     <link rel='stylesheet' id='ac_style-css' href='~/_Css/style.css?ver=2.0' type='text/css' media='all' />
     <link rel='stylesheet' id='ac_icons-css' href='~/_Css/font-awesome.min.css' type='text/css' media='all' />
     <link rel='stylesheet' id='ac_webfonts_style5-css' href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C700%7CLato%3A400%2C700%2C900%2C400italic%2C700italic' type='text/css' media='all' />
     <link rel='stylesheet' id='ac_webfonts_selected-style5-css' href='~/_Css/font-style.css' type='text/css' media='all' />
-    <script type='text/javascript' src='~/_JS/jquery.js'></script>
-    <script type='text/javascript' src='~/_JS/jquery-migrate.min.js'></script>
-    <script type='text/javascript' src='~/_JS/owl.carousel.min.js'></script>
-    <script type='text/javascript' src='~/_JS/html.js'></script>
     <link rel='https://api.w.org/' href='wp-json/index.html' />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
-    <meta name="generator" content="WordPress 4.5.20" />
 
+    <script src="~/_Js/Jquery3.5.js"></script>
 </head>
-<body class="home blog">
-    <script type="text/javascript">
+<body class="home blog" onload="BlockLoader();">
+    @*<script type="text/javascript">
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-2008245-2']);
-        _gaq.push(['_setDomainName', 'acosmin.com']);
-        _gaq.push(['_trackPageview']);
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2008245-2']);
+            _gaq.push(['_setDomainName', 'acosmin.com']);
+            _gaq.push(['_trackPageview']);
 
-        (function () {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
 
-    </script>
-    <div id="ac-preloader">
-        <div class="ac-loader ac-ball-pulse">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
+        </script>*@
+    @*<div id="ac-preloader">
+            <div class="ac-loader ac-ball-pulse">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>*@
+
+    @Html.Partial("Loader")
+
     <header id="main-header" class="header-wrap">
         <div class="wrap second-menu-wrap">
             <nav class="sm-container clearfix" role="navigation">
@@ -94,7 +95,7 @@
 
                 <div class="logo logo-text logo-centered">
                     <a href="index.html" title="JustWrite" class="logo-contents logo-text logo-centered">
-                        <span class="star-logo"> &#9733;</span>  Cosmonauta <span class="star-logo">&#9733;</span>
+                        <span class="star-logo"> &#9733;</span>O Cosmonauta <span class="star-logo">&#9733;</span>
                     </a>
                 </div>
 
@@ -242,7 +243,7 @@
                             <input type="search" class="search-field" placeholder="type your keywords ..." value="" name="s" title="Search for:" />
                         </div>
                     </form>
-                </div><!-- END .search-wrap -->
+                </div>
 
             </nav>
 
@@ -251,6 +252,12 @@
     </header>
 
     @RenderBody()
+
+    @*<script type='text/javascript' src='~/_JS/jquery.js'></script>*@
+    <script src="~/_Js/Layout.js"></script>
+    <script type='text/javascript' src='~/_JS/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='~/_JS/owl.carousel.min.js'></script>
+    <script type='text/javascript' src='~/_JS/html.js'></script>
     <script type='text/javascript' src='~/_JS/imagesloaded.min.js'></script>
     <script type='text/javascript' src='~/_JS/masonry.min.js'></script>
     <script type='text/javascript' src='~/_JS/jquery.masonry.min.js'></script>
@@ -260,7 +267,13 @@
     <script type='text/javascript' src='~/_JS/myscript.js'></script>
     <script type='text/javascript' src='~/_JS/wp-embed.min.js'></script>
 
+    <script>
+        function BlockLoader() {
+            //alert("teste");
+            jQuery(".loader_inner").fadeOut();
+            jQuery(".loader").delay(400).fadeOut("slow");
+        }
+    </script>
 </body>
-
 
 </html>

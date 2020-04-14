@@ -183,6 +183,7 @@
     <Content Include="_Img\image-alignment-580x300.jpg" />
     <Content Include="_Img\light-car-inside-black-600x400.jpg" />
     <Content Include="_Img\light-car-inside-black-638x368.jpg" />
+    <Content Include="_Img\loading.gif" />
     <Content Include="_Img\logo.png" />
     <Content Include="_Img\maxresdefault-600x347.jpg" />
     <Content Include="_Img\maxresdefault-600x400.jpg" />
@@ -297,6 +298,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Loader.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -304,6 +306,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="_Img\b0dd9ca3feba25e12b22c64de894f37f_large.e.delayed" />
+    <Content Include="_Js\Jquery3.5.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
