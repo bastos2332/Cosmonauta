@@ -1,0 +1,11 @@
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DAO\obj\Debug\COSMONAUTA.DAO.csprojAssemblyReference.cache
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DAO\obj\Debug\COSMONAUTA.DAO.csproj.CoreCompileInputs.cache
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DAO\bin\Debug\COSMONAUTA.DAO.dll
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DAO\bin\Debug\COSMONAUTA.DAO.pdb
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DAO\bin\Debug\COSMONAUTA.DAL.dll
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DAO\bin\Debug\Dapper.dll
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DAO\bin\Debug\COSMONAUTA.DAL.pdb
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DAO\bin\Debug\Dapper.xml
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DAO\obj\Debug\COSMONAUTA.DAO.csproj.CopyComplete
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DAO\obj\Debug\COSMONAUTA.DAO.dll
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DAO\obj\Debug\COSMONAUTA.DAO.pdb

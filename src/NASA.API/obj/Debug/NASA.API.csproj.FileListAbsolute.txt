@@ -1,0 +1,13 @@
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\NASA.API\bin\Debug\NASA.API.dll
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\NASA.API\bin\Debug\NASA.API.pdb
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\NASA.API\bin\Debug\COSMONAUTA.DAL.dll
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\NASA.API\bin\Debug\RestSharp.dll
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\NASA.API\bin\Debug\COSMONAUTA.DAL.pdb
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\NASA.API\bin\Debug\RestSharp.xml
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\NASA.API\obj\Debug\NASA.API.csprojAssemblyReference.cache
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\NASA.API\obj\Debug\NASA.API.csproj.CoreCompileInputs.cache
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\NASA.API\obj\Debug\NASA.API.csproj.CopyComplete
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\NASA.API\obj\Debug\NASA.API.dll
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\NASA.API\obj\Debug\NASA.API.pdb
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\NASA.API\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\NASA.API\bin\Debug\Newtonsoft.Json.xml

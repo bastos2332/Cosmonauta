@@ -288,6 +288,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Conexao.cs" />
+    <Compile Include="Helpers\IConexao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -311,6 +313,16 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\COSMONAUTA.DAL\COSMONAUTA.DAL.csproj">
+      <Project>{5605f2da-1234-4a05-9a57-46c37a9b43fd}</Project>
+      <Name>COSMONAUTA.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NASA.API\NASA.API.csproj">
+      <Project>{f5dee7ea-f361-45dc-84ca-84d7671ed6e1}</Project>
+      <Name>NASA.API</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

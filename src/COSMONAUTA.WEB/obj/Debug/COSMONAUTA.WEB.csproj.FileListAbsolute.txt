@@ -76,3 +76,11 @@ C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.WEB\obj\Debug\COSMONAU
 C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.WEB\obj\Debug\COSMONAUTA.WEB.csproj.CopyComplete
 C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.WEB\obj\Debug\COSMONAUTA.WEB.dll
 C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.WEB\obj\Debug\COSMONAUTA.WEB.pdb
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.WEB\bin\COSMONAUTA.DAL.dll
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.WEB\bin\NASA.API.dll
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.WEB\bin\RestSharp.dll
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.WEB\bin\Newtonsoft.Json.dll
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.WEB\bin\COSMONAUTA.DAL.pdb
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.WEB\bin\NASA.API.pdb
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.WEB\bin\RestSharp.xml
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.WEB\bin\Newtonsoft.Json.xml

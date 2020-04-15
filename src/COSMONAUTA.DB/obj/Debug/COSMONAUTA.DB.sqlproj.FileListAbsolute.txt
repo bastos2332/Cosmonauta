@@ -1,0 +1,6 @@
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DB\bin\Debug\COSMONAUTA.DB.dacpac
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DB\bin\Debug\COSMONAUTA.DB.dll
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DB\bin\Debug\COSMONAUTA.DB.pdb
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DB\obj\Debug\COSMONAUTA.DB.sqlprojAssemblyReference.cache
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DB\obj\Debug\COSMONAUTA.DB.dll
+C:\Users\gabriel\Desktop\Github\Cosmonauta\src\COSMONAUTA.DB\obj\Debug\COSMONAUTA.DB.pdb
