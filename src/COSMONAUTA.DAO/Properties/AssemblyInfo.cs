@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // As informações gerais sobre um assembly são controladas por
 // conjunto de atributos. Altere estes valores de atributo para modificar as informações
 // associada a um assembly.
-[assembly: AssemblyTitle("LIBS")]
+[assembly: AssemblyTitle("COSMONAUTA.DAO")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LIBS")]
+[assembly: AssemblyProduct("COSMONAUTA.DAO")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // O GUID a seguir será destinado à ID de typelib se este projeto for exposto para COM
-[assembly: Guid("4a1ec64c-5e10-4e99-93de-b0adf0c2f44d")]
+[assembly: Guid("51cd8d43-185a-4a75-b099-37fe7ab06272")]
 
 // As informações da versão de um assembly consistem nos quatro valores a seguir:
 //

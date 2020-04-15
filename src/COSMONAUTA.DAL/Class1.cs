@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAO
+namespace COSMONAUTA.DAL
 {
-    interface IConexao
+    public class Class1
     {
-        string GetConexao();
     }
 }
