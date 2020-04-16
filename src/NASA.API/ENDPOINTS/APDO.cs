@@ -9,18 +9,22 @@ using Newtonsoft.Json;
 
 namespace NASA
 {
-    public class APDO
+    public class APDO : NASA_API
+
     {
-        public string Api { get; set; } = "https://api.nasa.gov/planetary/apod";
 
         public COSMONAUTA.DAL.Cad001ApodModel GetImagemDia()
         {
-            RestClient client = new RestClient(Api);
-            client.AddDefaultParameter("api_key", "tNOJYwflSt0Zg0D8S5A6nxvVv1EqeJxNMAGTwkZ4");
-            client.Timeout = -1;
             var request = new RestRequest(Method.GET);
-            IRestResponse response = client.Execute(request);
+            IRestResponse response = base.client.Execute(request);
+            return JsonConvert.DeserializeObject<COSMONAUTA.DAL.Cad001ApodModel>(response.Content);
+        }
 
+        public COSMONAUTA.DAL.Cad001ApodModel GetImagemDia(string data)
+        {
+            base.client.AddDefaultParameter("date", data);
+            var request = new RestRequest(Method.GET);
+            IRestResponse response = base.client.Execute(request);
             return JsonConvert.DeserializeObject<COSMONAUTA.DAL.Cad001ApodModel>(response.Content);
         }
     }

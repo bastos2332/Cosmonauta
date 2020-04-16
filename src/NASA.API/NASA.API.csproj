@@ -49,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ENDPOINTS\APDO.cs" />
+    <Compile Include="ENDPOINTS\NEOWS.cs" />
+    <Compile Include="NASA_API.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
