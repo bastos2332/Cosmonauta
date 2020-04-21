@@ -1,0 +1,32 @@
+﻿@model COSMONAUTA.WEB.Models.Banner
+
+<div class="item">
+    <figure class="sc-thumbnail">
+        <img width="900" height="520" alt="@Model.Titulo" src="@Model.URL" class="attachment-ac-masonry-2x-thumbnail size-ac-masonry-2x-thumbnail wp-post-image" sizes="(max-width: 900px) 100vw, 900px" />
+        <figcaption class="st-overlay">
+            <span class="s-social">
+                <a href="https://twitter.com/intent/tweet?url=http://demo.acosmin.com/themes/justwrite/typography-and-headings-go-so-well-together-all-the-time/" class="social-btn twitter">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=http://demo.acosmin.com/themes/justwrite/typography-and-headings-go-so-well-together-all-the-time/" class="social-btn facebook">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://plus.google.com/share?url=http://demo.acosmin.com/themes/justwrite/typography-and-headings-go-so-well-together-all-the-time/" class="social-btn google-plus">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+            </span>
+            <div class="st-title-wrap">
+                <aside class="s-info si-center clearfix">
+                    <a href="typography-and-headings-go-so-well-together-all-the-time/index.html#respond" rel="nofollow" class="com">
+                        <i class="fa fa-comment"></i>
+                    </a>
+                    <time class="date" datetime="2015-05-26">@Model.Data</time>
+                    <a href="category/business/index.html" class="category" title="View all posts in Business">@Model.Categoria</a>
+                </aside>
+                <h3 class="section-title st-wrapped st-large st-bold">
+                    @Html.ActionLink("Imagem do Dia: " + Model.Titulo, "ExibirNoticia", "Home", new { @rel = "bookmark" });
+                </h3>
+            </div>
+        </figcaption>
+    </figure>
+</div>

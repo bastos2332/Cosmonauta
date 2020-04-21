@@ -13,13 +13,29 @@ namespace COSMONAUTA.WEB.Controllers
         // GET: Home
         public ActionResult Index()
         {
-           DAL.Cad001ApodModel apodModel = new NASA.APDO().GetImagemDia();
+            DAL.Cad001ApodModel apodModel = new NASA.APDO().GetImagemDia();
 
-            ViewBag.Titulo = apodModel.APDOtitulo ;
-            ViewBag.Url = apodModel.APDOurl ;
+            ViewBag.Titulo = apodModel.APDOtitulo;
+            ViewBag.Url = apodModel.APDOurl;
             ViewBag.Data = apodModel.APDOdata.ToLongDateString();
+
+            Models.Banner Banner = new Models.Banner();
+            Banner.Titulo = apodModel.APDOtitulo;
+            Banner.Categoria = "Ciência";
+            Banner.Categoria = apodModel.APDOdata.ToLongDateString();
+            Banner.URL = apodModel.APDOurl;
+
+            ViewBag.Banner = Banner;
             return View();
         }
+
+
+        public ActionResult ExibirNoticia()
+        {
+            string teste = ViewBag.Titulo;
+            return View();
+        }
+
 
         public void Teste()
         {

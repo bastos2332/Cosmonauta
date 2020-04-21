@@ -8,6 +8,6 @@ namespace NASA
 {
     class NEOWS: NASA_API
     {
-        public 
+         
     }
 }
